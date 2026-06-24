@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Volt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="stage" aria-label="Volt desktop pet">
+      <div id="bubble" role="status"></div>
+      <div id="meters" aria-label="Pet status">
+        <span title="Happiness">♥ <b id="happy">88</b></span>
+        <span title="Energy">⚡ <b id="energy">74</b></span>
+        <span title="Hunger">● <b id="hunger">62</b></span>
+      </div>
+      <div id="pet" class="state-idle facing-right" role="button" tabindex="0" aria-label="Volt, your desktop companion">
+        <div id="sprite"></div>
+      </div>
+      <div id="ground-shadow"></div>
+    </main>
+    <script src="pet.js"></script>
+  </body>
+</html>

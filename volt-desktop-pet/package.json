@@ -1,0 +1,14 @@
+{
+  "name": "volt-desktop-pet",
+  "version": "1.0.0",
+  "description": "A playful always-on-top Electron desktop companion",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "check": "node --check main.js && node --check preload.js && node --check renderer/pet.js"
+  },
+  "devDependencies": {
+    "electron": "^42.5.0"
+  }
+}
